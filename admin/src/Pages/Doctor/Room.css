@@ -1,0 +1,47 @@
+.room-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.video-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.local-video,
+.remote-video {
+    width: 400px;
+    height: 300px;
+    background: #000;
+    border-radius: 8px;
+}
+
+.control-bar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.control-button {
+    color: white;
+    background-color: #555;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.control-button.active {
+    background-color: #4caf50;
+}
+
+.control-button.leave {
+    background-color: #f44336;
+}
